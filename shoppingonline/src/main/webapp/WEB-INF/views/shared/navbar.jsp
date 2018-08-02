@@ -6,13 +6,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item" id="inicio">
-              <a class="nav-link" href="${contextRoot}/home">Inicio
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item" id="productos">
-              <a class="nav-link" href="${contextRoot}/productos">Productos</a>
+            
+            <li class="nav-item" id="products">
+              <a class="nav-link" href="${contextRoot}/show/all/products">Productos</a>
             </li>
             <li class="nav-item" id="serviciotecnico">
               <a class="nav-link" href="${contextRoot}/serviciotecnico">Servicio Tecnico</a>

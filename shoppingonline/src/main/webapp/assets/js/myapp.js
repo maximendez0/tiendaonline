@@ -5,13 +5,14 @@ $(function(){
 		$('#contacto').addClass('active');
 		break;
 	case 'productos':
-		$('#productos').addClass('active');
+		$('#products').addClass('active');
 		break;
 	case 'servicio tecnico':
 		$('#serviciotecnico').addClass('active');
 		break;
 	default:
-		$('#inicio').addClass('active');
+		$('#products').addClass('active');
+		$('#a_'+menu).addClass('active');
 		break;
 		
 	}
